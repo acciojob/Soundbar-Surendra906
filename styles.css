@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
